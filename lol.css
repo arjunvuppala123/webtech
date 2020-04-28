@@ -1,0 +1,44 @@
+body
+{
+ color : red ; font-family: verdana , Arial , Geneva , Arial Black;
+}
+h1,h2 {
+font-size:100%;
+border-bottom : 1px solid black : 1 px solid black; font-weight : bolder;
+}
+.blue { 
+color : blue ;
+font-size :25px;
+}
+p.purple {
+color : purple; font-size :25px; font-weight : lighter;
+}
+.underline {
+text-decoration : line-through;
+font-style : italic;
+}
+p.para3{
+color:red;
+background - image:url(messi10.gif);
+font-size:16px;
+line-height :1.5em;
+background-color:#e5e4d7;
+padding : 20px;
+margin: 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+margin-right: 1000px;
+border-color: Red;
+border-width: 2px;
+border-style: dashed;
+border-radius : 10px;
+<!-- u can do for any part :p-->
+}
+.imagec
+{
+padding-right: auto;
+}
+a:link{color: blue;}
+a:visited{color:red;}
+a:hover{color:green;}
+<!-- This can be applied to an image too and video also -->

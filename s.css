@@ -1,0 +1,33 @@
+body
+{
+background-image: url('school1.jpg');
+}
+
+.formfield * {
+  vertical-align: middle;
+}
+
+label {
+   width: 100px;
+   display: inline-block;
+   text-align: right;
+}
+
+h1{ 
+text-align:center;
+font-family:Copperplate;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+th,td{
+padding: 15px;
+text-align:center;
+}
+a
+{
+border-style: solid;
+border-color: black;
+border-width: 5px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1"> 
+	<title>Neon text Display Using HTML and CSS</title> 
+	<style> 
+		body { 
+			background-color: grey; 
+		} 
+		
+		.glow { 
+			font-size: 60px; 
+			color: #8B008B; 
+			text-align: center; 
+			animation: glow 2s ease-in-out infinite alternate; 
+		} 
+		
+		/* Text glowing from onw shade to other shade */
+		@-webkit-keyframes glow { 
+			from { 
+				text-shadow: 0 0 10px #4666FF, 
+							0 0 20px #4666FF, 
+							0 0 30px #add8e6, 
+							0 0 40px #add8e6, 
+							0 0 50px #add8e6, 
+							0 0 60px #add8e6, 
+							0 0 70px #add8e6; 
+			} 
+			to { 
+				text-shadow: 0 0 20px ##00008b ; 
+							0 0 30px #00008b , 
+							0 0 40px #00008b , 
+							0 0 50px #00008b , 
+							0 0 60px #00008b , 
+							0 0 70px #00008b , 
+							0 0 80px #00008b ; 
+			} 
+		} 
+	</style> 
+</head> 
+
+<body> 
+
+	<!-- Content will Glow --> 
+	<h1 class="glow">GeeksforGeeks</h1> 
+
+</body> 
+
+</html> 
